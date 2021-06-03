@@ -2,37 +2,65 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.display-3 {
+  font-family: "Bebas Neue";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.lead {
+  font-family: "Marck Script", cursive;
+  font-size: large;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar {
+  font-family: "Bebas Neue" !important;
+  background-color: #f5cf1f !important;
+  color: #fff !important;
 }
 
-.App-link {
-  color: #61dafb;
+.sub-lead {
+  font-family: "Odibee Sans", cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image {
+  height: 300px !important;
+  width: auto !important;
+}
+
+.jumbo-man {
+  color: white !important;
+  font-family: "Bebas Neue" !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255 255 255) !important;
+}
+
+.navbar-brand {
+  font-size: 31px !important;
+  color: #fff !important;
+}
+
+.branding {
+  color: green;
+}
+
+.jumbotron {
+  color: #fff !important;
+  background-color: #f5cf1f !important;
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #479f18 !important;
+  border-color: #ffffff !important;
+}
+
+.d-block {
+  height: 400px;
+  width: auto;
+}
+
+.heading {
+  font-family: "Odibee Sans";
+  font-size: 42px;
 }
