@@ -10,7 +10,7 @@ const Landing = (props) => {
         <hr className="my-2" />
         <p className="sub-lead">Think Big, Publish Bigger.</p>
         <p className="lead">
-          <Button color="primary" href="/about">Learn More</Button>
+          <Button color="primary" href="/about">More About</Button>
         </p>
       </Jumbotron>
     </div>
