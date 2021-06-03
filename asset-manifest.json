@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/noli_publishers/static/css/main.6b248112.chunk.css",
-    "main.js": "/noli_publishers/static/js/main.a5ceb793.chunk.js",
-    "main.js.map": "/noli_publishers/static/js/main.a5ceb793.chunk.js.map",
+    "main.js": "/noli_publishers/static/js/main.e75f09db.chunk.js",
+    "main.js.map": "/noli_publishers/static/js/main.e75f09db.chunk.js.map",
     "runtime-main.js": "/noli_publishers/static/js/runtime-main.a8ee2705.js",
     "runtime-main.js.map": "/noli_publishers/static/js/runtime-main.a8ee2705.js.map",
     "static/css/2.150d169a.chunk.css": "/noli_publishers/static/css/2.150d169a.chunk.css",
@@ -28,6 +28,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.252c3c8a.chunk.js",
     "static/css/main.6b248112.chunk.css",
-    "static/js/main.a5ceb793.chunk.js"
+    "static/js/main.e75f09db.chunk.js"
   ]
 }
