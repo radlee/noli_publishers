@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
 
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <NavBar />
         <br />
         <Route path="/contact" axact component={Contact} />
