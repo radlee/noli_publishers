@@ -11,7 +11,7 @@ import {
 } from 'reactstrap';
 
 
-import logo from '../assets/logo/logo.png';
+import logo from '../assets/logo/default.png';
 
 
 
@@ -27,11 +27,11 @@ const NavBar = (props) => {
                 <img
                     alt=""
                     src={logo}
-                    width="40"
-                    height="40"
+                    width="50"
+                    height="50"
                     className="d-inline-block align-top"
                 />{' '}
-                <span className="branding"> Noli</span> Publishers
+                GO <span className="gc">CRAZY</span> EXPERIENCE
             </NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
@@ -54,7 +54,7 @@ const NavBar = (props) => {
                     </NavItem>
 
                 </Nav>
-                <NavbarText>NOLI PUBLISHERS</NavbarText>
+                <NavbarText>THE GO CRAZY EXPERIENCE</NavbarText>
             </Collapse>
         </Navbar>
         // </div>

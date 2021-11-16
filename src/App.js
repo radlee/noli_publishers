@@ -15,7 +15,6 @@ function App() {
 
       <Router basename={process.env.PUBLIC_URL}>
         <NavBar />
-        <br />
         <Route path="/contact" axact component={Contact} />
         <Route path="/team" axact component={Team} />
         <Route path="/gallery" axact component={Gallery} />

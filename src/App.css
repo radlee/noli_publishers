@@ -11,28 +11,102 @@
   font-size: large;
 }
 
+.gc {
+  color: #d10808;
+}
+
 .navbar {
   font-family: "Bebas Neue" !important;
-  background-color: #f5cf1f !important;
+  background-color: #111111 !important;
   color: #fff !important;
 }
 
+.bg-image {
+  background-attachment: fixed !important;
+}
+
+.button-color {
+  background-color: #000000 !important;
+}
+
+.btn-secondary {
+  border-color: #003358 !important;
+}
+
+.button-color:hover {
+  border-color: #ffffff !important;
+  background-color: #ffffff !important;
+  color: #d30505!important;
+}
+
+.lead-band{
+  background: #00000099;
+  padding: 10px;
+  line-height: 2.5;
+}
+.service-band{
+  background: #000000;
+  padding: 10px;
+  line-height: 3.5;
+}
+
+.contact-us {
+  font-family: "Bebas Neue"
+
+}
+
+.left-box {
+  border: 25px solid black;
+  padding: 15px;
+}
+
+
+.service-list{
+  color: #ffffff !important;
+}
+
+.contact-list{
+  color: #000000 !important;
+}
+
+.service-list:hover{
+  color: #d30505!important;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none
+}
+
 .sub-lead {
-  font-family: "Odibee Sans", cursive;
+  /* font-family: "Odibee Sans", cursive; */
+  font-family: "Secular One";
+  font-size: 19px;
+}
+
+.button-text {
+  font-family: "Bebas Neue";
 }
 
 .image {
-  height: 300px !important;
+  height: 250px !important;
   width: auto !important;
 }
 
 .jumbo-man {
   color: white !important;
-  font-family: "Bebas Neue" !important;
+  font-family: "Secular One" !important;
+}
+
+.about-text {
+  font-family: "Secular One" !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: rgb(255 255 255) !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(223, 0, 0) !important;
 }
 
 .navbar-brand {
@@ -40,13 +114,20 @@
   color: #fff !important;
 }
 
+.navbar-light .navbar-toggler {
+  color: rgb(236 225 225);
+  border-color: rgb(204 204 204 / 88%);
+}
+
 .branding {
-  color: green;
+  color: #479f18;
 }
 
 .jumbotron {
   color: #fff !important;
-  background-color: #f5cf1f !important;
+  background-color: #003358 !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
 }
 
 .btn-primary {
@@ -63,4 +144,99 @@
 .heading {
   font-family: "Odibee Sans";
   font-size: 42px;
+}
+
+.py-5 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-lead {
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: sans-serif;
+}
+
+.about-paragraph{
+  font-family: "Secular One";
+  line-height: 2
+}
+
+.band {
+  background-color: #00000079;
+  padding: 10px;
+  line-height: 3.5;
+}
+
+.card-header {
+  background-color: rgb(71 158 22) !important;
+  border-bottom: 1px solid rgb(255 255 255) !important;
+}
+
+.theme {
+  background-color: #000000 !important;
+}
+
+footer {
+  font-size: 15px !important;
+  color: #479f18 !important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgb(209 10 8) !important;
+}
+
+.navbar-toggler-icon {
+  background-color: #501313 !important;
+}
+
+.card-header-home {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  background-color: #003358 !important;
+  border-bottom: 0px solid rgb(255 255 255) !important;
+}
+
+.remark-ee {
+  color:#0defe5;
+}
+.link {
+  color: rgb(232 216 12);
+}
+.brand-com {
+  color:#d30505;
+}
+.bg-warning {
+  background-color: #003358 !important;
+}
+
+.nav-link{
+  color: red !important;
+}
+
+.commited {
+  color: #fff;
+}
+.divider {
+  background-color: #000000;
+  margin-top: -34px;
+}
+
+.my-2 {
+  border-top: 1px solid rgb(255 255 255);
+  width: 50%;
+}
+
+.black-horizon{
+  border-top: 1px solid #000000;
+  width: 25%;
+}
+
+.team-body {
+  font-size: 16px;
+  color: white;
+  background-color: #003358;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }

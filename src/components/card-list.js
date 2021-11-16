@@ -1,18 +1,14 @@
 import React from 'react';
-import {
-    Col, Container, Row,
-
-} from 'react-bootstrap';
-import { Card, Button, CardImg } from 'react-bootstrap';
+import { Card, CardImg, Col, Container, Row, } from 'react-bootstrap';
 import { CardBody, CardText, CardTitle } from 'reactstrap';
 
-import g1 from '../assets/gallery/slide-pictures/gallery-1.jpg';
-import g2 from '../assets/gallery/slide-pictures/gallery-2.jpg';
-import g3 from '../assets/gallery/slide-pictures/gallery-3.jpg';
+import pic1 from '../assets/gallery/team/one.jpeg';
+import pic2 from '../assets/gallery/team/four.jpeg';
+import pic3 from '../assets/gallery/team/three.jpeg';
 
 
 
-const TeamList = (props) => {
+const CardList = (props) => {
 
 
     return (
@@ -21,38 +17,36 @@ const TeamList = (props) => {
 
             <Row>
                 <Col sm>
-                    <Card style={{ width: '18rem' }}>
-                        <CardImg variant="top" src={g1} />
-                        <CardBody>
+                    <Card className="shadow" style={{ width: '18rem' }}>
+                        <CardImg variant="top" src={pic1} />
+                        <CardBody className="team-body" >
                             <CardTitle>Name One</CardTitle>
                             <CardText>
                                 Description of Team Member one
                             </CardText>
-                            <Button variant="primary">Follow</Button>
+                            {/* <Button variant="primary">Follow</Button> */}
                         </CardBody>
                     </Card>
                 </Col>
                 <Col sm>
-                    <Card style={{ width: '18rem' }}>
-                        <CardImg variant="top" src={g2} />
-                        <CardBody>
+                    <Card className="shadow" style={{ width: '18rem' }}>
+                        <CardImg variant="top" src={pic2} />
+                        <CardBody className="team-body">
                             <CardTitle>Name Two</CardTitle>
                             <CardText>
                                 Description of Team Member Two
                             </CardText>
-                            <Button variant="primary">Follow</Button>
                         </CardBody>
                     </Card>
                 </Col>
                 <Col sm>
-                    <Card style={{ width: '18rem' }}>
-                        <CardImg variant="top" src={g3} />
-                        <CardBody>
+                    <Card className="shadow" style={{ width: '18rem' }}>
+                        <CardImg variant="top" src={pic3} />
+                        <CardBody className="team-body">
                             <CardTitle>Name Three</CardTitle>
                             <CardText>
                                 Description of Team Member Three
                             </CardText>
-                            <Button variant="primary">Follow</Button>
                         </CardBody>
                     </Card>
                 </Col>
@@ -62,4 +56,4 @@ const TeamList = (props) => {
 
 }
 
-export default TeamList;
+export default CardList;
